@@ -1,0 +1,1 @@
+print(f"Common items : {sorted(list(set(input("List 1 : ").split())&set(input("List 2 : ").split())))}")
